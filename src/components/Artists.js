@@ -8,12 +8,12 @@ const Artists = () => {
     ])
 
     const renderRows = () => {
-        return artist.map(a => {
+        return artist.map(a => (
             <tr>
                 <td>{a.name}</td>
                 <td><a href={a.link}>Link</a></td>
-            </tr>
-        })
+            </tr>                
+        ));
     };
 
     return (
