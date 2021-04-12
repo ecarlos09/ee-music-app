@@ -1,0 +1,25 @@
+{
+  "name": "music-app",
+  "version": "1.0.0",
+  "description": "An REACT app for showcasing my favourite songs and artist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecarlos09/ee-music-app.git"
+  },
+  "author": "Elwin & collaborators",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecarlos09/ee-music-app/issues"
+  },
+  "homepage": "https://github.com/ecarlos09/ee-music-app#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
