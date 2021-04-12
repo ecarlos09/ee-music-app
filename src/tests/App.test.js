@@ -11,7 +11,7 @@ describe('App', () => {
     })
 
     it('renders a heading with the app name', () => {
-        const heading = screen.queryByRole('heading');
+        const heading = screen.queryAllByText('heading');
         expect(heading).toBeInTheDocument();
         expect(heading.textContent).toContain("Choonsic");
     })
