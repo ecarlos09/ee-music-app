@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Artists from './components/Artists';
+
 function App() {
     return (
         <>
@@ -8,7 +10,7 @@ function App() {
             </header>
 
             <main>
-
+                <Artists />
             </main>
 
             <footer>
