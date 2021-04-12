@@ -10,8 +10,8 @@ const Artists = () => {
     const renderRows = () => {
         return artist.map(a => {
             <tr>
-                <td>a.name</td>
-                <td>a.link</td>
+                <td>{a.name}</td>
+                <td><a href={a.link}>Link</a></td>
             </tr>
         })
     };
@@ -20,8 +20,8 @@ const Artists = () => {
         <table>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Youtube content</th>
+                    <th>Artist</th>
+                    <th>YouTube content</th>
                 </tr>
             </thead>
             <tbody>
