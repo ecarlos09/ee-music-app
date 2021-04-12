@@ -4,7 +4,8 @@
   "description": "An REACT app for showcasing my favourite songs and artist",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watch --verbose --setupFilesAfterEnv ./src/tests/setupTests.js",
+    "coverage": "jest --setupFilesAfterEnv ./src/tests/setupTests.js --coverage --silent --watchAll=false",
     "dev": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
     "build": "webpack --config config/webpack.config.production.js"
   },
