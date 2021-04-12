@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 
 const Artists = () => {
-    const [artist, setArtist ] = useState([
+    const [artist, setArtist] = useState([
         { name: "Josh Groban", link: "https://www.youtube.com/channel/UCIzJyWKY_d3540fhUa2eJUA" },
         { name: "Journey", link: "https://www.youtube.com/watch?v=fTkHFQC3wow&list=RDEMaN44Jp63Y-AyoHV9WoMk6g&start_radio=1" },
         { name: "Queen", link: "https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ" }
     ])
 
     const renderRows = () => {
-        return artist.map(a => {
+        return artist.map(a => (
             <tr>
                 <td>{a.name}</td>
                 <td><a href={a.link}>Link</a></td>
-            </tr>
-        })
+            </tr>                
+        ));
     };
 
     return (
-        <table>
+        <table style = {{border: "1px solid black", width:"100vw", textAlign: "center"}}>
             <thead>
                 <tr>
                     <th>Artist</th>

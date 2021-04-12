@@ -1,12 +1,13 @@
 import React from 'react';
 
+import Header from './components/Header';
 import Artists from './components/Artists';
 
 function App() {
     return (
         <>
             <header>
-                <h1>Welcome to my Music App!</h1>
+                <Header />
             </header>
 
             <main>
