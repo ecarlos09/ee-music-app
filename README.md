@@ -1,5 +1,4 @@
-# Music app
-(will think of a better name at some point ... watch this space!)
+# Choonsic Music
 
 ### 12.04.2021
 
