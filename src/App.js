@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import Header from './components/Header';
 import Artists from './components/Artists';
 import Singles from './components/Singles';
