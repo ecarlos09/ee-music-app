@@ -13,6 +13,10 @@ const Singles = () => {
         { id: 6, title: "Don't Stop Me Now", artist: "Queen", video: "https://www.youtube.com/watch?v=HgzGwKwLmgM" }        
     ]);
 
+    const [showLyrics, setShowLyrics ] = useState(false);
+
+    const toggleLyrics = () => setShowLyrics(prevState => !prevState)
+
     const renderSingles = () => {
         return (
             single.map(s => (
@@ -23,7 +27,9 @@ const Singles = () => {
                     <LikeButton />
                     <ul>
                         <li>
-                            <p><Lyrics artist={s.artist} title={s.title} /></p>
+                            <p>
+                                { showLyrics ? <Lyrics artist={s.artist} title={s.title} open={toggleLyrics} /> : <button onClick={toggleLyrics}>Show lyrics</button>}
+                            </p>
                         </li>
                     </ul>
                 </li>
