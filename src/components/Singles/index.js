@@ -14,7 +14,7 @@ const Singles = () => {
         return (
             single.map(s => (
                 <li>
-                    Title: {s.title} Artist: {s.artist} <a href={s.video}><i class="fab fa-youtube"></i></a> <i class="far fa-heart"></i>
+                    <i class="fas fa-compact-disc"></i> {s.title} <i class="fas fa-portrait"></i> {s.artist} <a href={s.video}><i class="fab fa-youtube"></i></a> <i class="far fa-heart"></i>
                 </li>
             )
         ));
