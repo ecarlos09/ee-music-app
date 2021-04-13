@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { LikeButton } from '..';
+
 const Singles = () => {
     const [single, setSingle] = useState([
         { title: "To Where You Are", artist: "Josh Groban", video: "https://www.youtube.com/watch?v=PXnKt3Wclzo", liked: false },
@@ -14,7 +16,10 @@ const Singles = () => {
         return (
             single.map(s => (
                 <li>
-                    <i class="fas fa-compact-disc"></i> {s.title} <i class="fas fa-portrait"></i> {s.artist} <a href={s.video}><i class="fab fa-youtube"></i></a> <i class="far fa-heart"></i>
+                    <i class="fas fa-compact-disc"></i> {s.title} 
+                    <i class="fas fa-portrait"></i> {s.artist} 
+                    <a href={s.video}><i class="fab fa-youtube"></i></a> 
+                    <LikeButton />
                 </li>
             )
         ));
