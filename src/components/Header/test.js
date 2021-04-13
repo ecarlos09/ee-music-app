@@ -2,7 +2,7 @@
 import { render, screen, within } from '@testing-library/react';
 
 // Import our app file
-import Header from './Header';
+import Header from '.';
 
 describe('Header', () => {
     beforeEach(() => {

@@ -2,7 +2,7 @@
 import { render, screen, within } from '@testing-library/react';
 
 // Import our app file
-import Artists from './Artists';
+import Artists from '.';
 
 describe('Artists', () => {
     beforeEach(() => {
