@@ -9,3 +9,11 @@ Keep an eye on this space for updates, as well as my link for the deployed site.
 #### End of day update
 
 Test suites are now available to view on dev2 branch!  :)
+
+## Visit the site!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e459b16a-7ec6-4b17-b801-6a55c00fda7e/deploy-status)](https://app.netlify.com/sites/ee-music-app/deploys)
+
+Checkout the app by following the link below!
+
+https://ee-music-app.netlify.app/
