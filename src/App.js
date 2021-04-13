@@ -1,7 +1,9 @@
 import React from 'react';
 
+
 import Header from './components/Header';
 import Artists from './components/Artists';
+import Singles from './components/Singles';
 
 function App() {
     return (
@@ -12,6 +14,7 @@ function App() {
 
             <main>
                 <Artists />
+                <Singles />
             </main>
 
             <footer>
