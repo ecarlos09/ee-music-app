@@ -49,3 +49,7 @@ Albums
 
 Singles
 - [ ]
+
+## Styling!
+
+- [ ] Make it look less rubbish (will make this more granular once I've decided how I want to look, haha!)
