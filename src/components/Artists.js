@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Singles from './Singles';
 
 const Artists = () => {
     const [artist, setArtist] = useState([
