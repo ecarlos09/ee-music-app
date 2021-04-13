@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { LikeButton } from '..';
+
 const Artists = () => {
     const [artist, setArtist] = useState([
         { name: "Josh Groban", link: "https://www.youtube.com/channel/UCIzJyWKY_d3540fhUa2eJUA" },
@@ -12,6 +14,7 @@ const Artists = () => {
             <tr>
                 <td>{a.name}</td>
                 <td><a href={a.link}>Link</a></td>
+                <td><LikeButton /></td>
             </tr>                
         ));
     };
