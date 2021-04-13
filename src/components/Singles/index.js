@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 
 import { LikeButton } from '..';
+import { Lyrics } from '..';
 
 const Singles = () => {
     const [single, setSingle] = useState([
-        { title: "To Where You Are", artist: "Josh Groban", video: "https://www.youtube.com/watch?v=PXnKt3Wclzo" },
-        { title: "Bridge Over Troubled Water", artist: "Josh Groban", video: "https://www.youtube.com/watch?v=utTYvc2XsLY" },
-        { title: "Don't Stop Believin'", artist: "Journey", video: "https://www.youtube.com/watch?v=1k8craCGpgs" },
-        { title: "Faithfully", artist: "Journey", video: "https://www.youtube.com/watch?v=OMD8hBsA-RI" },
-        { title: "Bohemian Rhapsody", artist: "Queen", video: "https://www.youtube.com/watch?v=fJ9rUzIMcZQ" },
-        { title: "Don't Stop Me Now", artist: "Queen", video: "https://www.youtube.com/watch?v=HgzGwKwLmgM" }        
-    ])
+        { id: 1, title: "To Where You Are", artist: "Josh Groban", video: "https://www.youtube.com/watch?v=PXnKt3Wclzo" },
+        { id: 2, title: "Bridge Over Troubled Water", artist: "Josh Groban", video: "https://www.youtube.com/watch?v=utTYvc2XsLY" },
+        { id: 3, title: "Don't Stop Believin'", artist: "Journey", video: "https://www.youtube.com/watch?v=1k8craCGpgs" },
+        { id: 4, title: "Faithfully", artist: "Journey", video: "https://www.youtube.com/watch?v=OMD8hBsA-RI" },
+        { id: 5, title: "Bohemian Rhapsody", artist: "Queen", video: "https://www.youtube.com/watch?v=fJ9rUzIMcZQ" },
+        { id: 6, title: "Don't Stop Me Now", artist: "Queen", video: "https://www.youtube.com/watch?v=HgzGwKwLmgM" }        
+    ]);
 
     const renderSingles = () => {
         return (
@@ -20,6 +21,11 @@ const Singles = () => {
                     <i class="fas fa-portrait"></i> {s.artist} 
                     <a href={s.video}><i class="fab fa-youtube"></i></a> 
                     <LikeButton />
+                    <ul>
+                        <li>
+                            <p><Lyrics artist={s.artist} title={s.title} /></p>
+                        </li>
+                    </ul>
                 </li>
             )
         ));
@@ -29,8 +35,7 @@ const Singles = () => {
         <div id="allSingles">
             <ul>
                 { renderSingles() }
-            </ul>   
-            
+            </ul>            
         </div>
     )
 }
