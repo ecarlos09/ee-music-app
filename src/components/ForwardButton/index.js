@@ -8,7 +8,7 @@ const ForwardButton = () => {
         <>
             <button id="Forward-button" onClick={history.goForward}>
                 Choo choo!
-                <i class="fas fa-step-forward"></i>
+                <i className="fas fa-step-forward"></i>
             </button>
         </>
     )

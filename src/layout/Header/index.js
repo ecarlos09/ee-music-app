@@ -4,7 +4,7 @@ const Heading = () => {
     return (
         <section className="heading">
             <div id="title-icon">
-                <i class="fas fa-record-vinyl"></i>
+                <i className="fas fa-record-vinyl"></i>
             </div>
             <div id="title">
                 <h1>Choonsic Music</h1>
