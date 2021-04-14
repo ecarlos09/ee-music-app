@@ -21,10 +21,11 @@ const Artists = () => {
 
     return (
         <table style = {{border: "1px solid black", width:"100vw", textAlign: "center"}}>
-            <thead>
+            <thead style = {{backgroundColor:"grey"}}>
                 <tr>
                     <th>Artist</th>
                     <th>YouTube content</th>
+                    <th>Lookin' and likin'?</th>
                 </tr>
             </thead>
             <tbody>
