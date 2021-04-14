@@ -21,8 +21,10 @@ const Lyrics = ({ artist, title, open }) => {
 
     return (
         <div class="lyrics">
-            <span onClick={ open } style={{cursor: "pointer"}}>x</span>
             { lyrics }
+            <span onClick={ open } style={{cursor: "pointer"}}>
+                <button>x</button>
+            </span>
         </div>
     )
 }
