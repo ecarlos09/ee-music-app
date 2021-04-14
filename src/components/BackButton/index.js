@@ -6,7 +6,10 @@ const BackButton = () => {
 
     return (
         <>
-            <button id="back-button" onClick={history.goBack}>Choobacker</button>
+            <button id="back-button" onClick={history.goBack}>
+                <i class="fas fa-step-backward"></i>
+                Choobacker
+            </button>
         </>
     )
 }

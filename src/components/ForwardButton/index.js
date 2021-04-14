@@ -6,7 +6,10 @@ const ForwardButton = () => {
 
     return (
         <>
-            <button id="Forward-button" onClick={history.goForward}>Choo choo!</button>
+            <button id="Forward-button" onClick={history.goForward}>
+                Choo choo!
+                <i class="fas fa-step-forward"></i>
+            </button>
         </>
     )
 }
