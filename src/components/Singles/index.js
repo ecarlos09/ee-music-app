@@ -21,8 +21,8 @@ const Singles = () => {
         return (
             single.map(s => (
                 <li>
-                    <i class="fas fa-compact-disc"></i> {s.title} 
-                    <i class="fas fa-portrait"></i> {s.artist} 
+                    <i className="fas fa-compact-disc"></i> {s.title} 
+                    <i className="fas fa-portrait"></i> {s.artist} 
                     <a href={s.video}><i class="fab fa-youtube"></i></a> 
                     <LikeButton />
                     { showLyrics ? <Lyrics artist={s.artist} title={s.title} open={toggleLyrics} /> : <button onClick={toggleLyrics}><img src='https://i.imgur.com/nBj6dhV.jpg' style={{width: "1vw"}} /></button> }

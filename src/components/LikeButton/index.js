@@ -10,7 +10,7 @@ const LikeButton = () => {
 
     return (
         <span role="switch" onClick={ handleLiked }>
-            <i class={ liked ? "fas fa-grin-hearts" : "far fa-heart" }></i>
+            <i className={ liked ? "fas fa-grin-hearts" : "far fa-heart" }></i>
         </span>
     )
 }
