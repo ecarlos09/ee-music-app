@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './App.css';
+
 import { Header, Footer } from './layout';
 import { Artists, Singles } from './components';
 

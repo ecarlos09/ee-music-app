@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: grey;
+}
