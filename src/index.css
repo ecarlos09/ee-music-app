@@ -1,8 +1,6 @@
  body {
     display: flex;
     background-color: lightgoldenrodyellow;
-    justify-self: center;
-    padding-right: 1rem;
  }
 
  header {
@@ -15,9 +13,19 @@
     width: 90vw;
  }
 
- footer {
-    display: flex;
-    align-self: flex-end;
-    width: 100vw;
-    background-color: grey;
+ h1 {
+    text-align: center;
  }
+
+ footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100vw;
+   background-color: grey;
+ }
+
+ @media screen and (max-width: 750px) {
+   footer {
+       position: relative;
+   }
+}

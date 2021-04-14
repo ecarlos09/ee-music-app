@@ -1,8 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import './App.css';
-
 import { NavBar, Header, Footer } from './layout';
 import { Home, About, Music, Support, Contact } from './pages';
 
