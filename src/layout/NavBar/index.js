@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import { BackButton } from '../../components'
+import { BackButton, ForwardButton } from '../../components'
 
 const NavBar = () => {
     return (
@@ -12,7 +12,7 @@ const NavBar = () => {
             <NavLink to="/support" activeClassName="current">Support</NavLink>
             <NavLink to="/contact" activeClassName="current">Contact</NavLink>
             <BackButton />
-
+            <ForwardButton />
         </>
     )
 }
