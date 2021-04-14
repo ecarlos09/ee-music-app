@@ -10,7 +10,7 @@ const Heading = () => {
             </div>
             <div id="title">
                 <h1>Choosic Music</h1>
-                <h5>A place for you to choose some sick choons ...</h5>
+                <h5>A place for you to choose some sick choons</h5>
             </div>
         </section>
     )
