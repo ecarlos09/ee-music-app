@@ -25,13 +25,7 @@ const Singles = () => {
                     <i class="fas fa-portrait"></i> {s.artist} 
                     <a href={s.video}><i class="fab fa-youtube"></i></a> 
                     <LikeButton />
-                    <ul>
-                        <li>
-                            <p>
-                                { showLyrics ? <Lyrics artist={s.artist} title={s.title} open={toggleLyrics} /> : <button onClick={toggleLyrics}>Show lyrics</button>}
-                            </p>
-                        </li>
-                    </ul>
+                    { showLyrics ? <Lyrics artist={s.artist} title={s.title} open={toggleLyrics} /> : <button onClick={toggleLyrics}><img src='../../assets/lyrics-icon.jpg' style={{width: "1vw"}} /></button> }
                 </li>
             )
         ));
