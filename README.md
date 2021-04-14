@@ -16,4 +16,4 @@ Test suites are now available to view on dev2 branch!  :)
 
 Checkout the app by following the link below!
 
-https://ee-music-app.netlify.app/
+https://choosic-music.netlify.app/
