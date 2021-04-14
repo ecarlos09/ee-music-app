@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Header from './components/Header';
-import Artists from './components/Artists';
-import Singles from './components/Singles';
+import { Header, Footer } from './layout';
+import { Artists, Singles } from './components';
 
 function App() {
     return (
@@ -17,7 +16,7 @@ function App() {
             </main>
 
             <footer>
-
+                <Footer />
             </footer>
         </>
     );
