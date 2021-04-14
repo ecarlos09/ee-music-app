@@ -13,7 +13,7 @@ nav {
     margin: 0.5rem;
 }
 
-nav .links {
+nav .links{
     display: flex;
     justify-content: space-around;
     margin: 0.5rem;
@@ -27,6 +27,7 @@ nav .history {
 
 a {
     text-decoration: none;
+    background-color: whitesmoke;
 }
 
 a:hover {
