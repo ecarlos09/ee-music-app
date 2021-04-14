@@ -1,0 +1,13 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.heading h1 {
+    font-size: 2rem;
+}
+
+.heading #title-icon {
+    font-size: 5rem;
+}
