@@ -7,12 +7,13 @@ import { Home, About, Music, Support, Contact } from './pages';
 function App() {
     return (
         <>
-            <NavBar />
-          
-            <header>
-                <Header />
-            </header>
-
+            <section className="top">
+                <NavBar />          
+                <header>
+                    <Header />
+                </header>                
+            </section>
+            
             <Switch>
                 <Route exact path ="/" component={Home} />
                 <Route path ="/about" component={About} />
