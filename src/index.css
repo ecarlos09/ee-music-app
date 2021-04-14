@@ -3,8 +3,20 @@
     background-color: lightgoldenrodyellow;
  }
 
+ .top {
+   background-image: url("https://i.imgur.com/S4DjhLW.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+
  header {
+    display: flex;
+    justify-content: center;
     margin-top: 5rem;
+    width: 100vw;
+    border-radius: 10%;
+    text-align: center;
  }
 
  main {
