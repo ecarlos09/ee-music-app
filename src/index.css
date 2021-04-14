@@ -1,3 +1,47 @@
  body {
+    display: flex;
     background-color: lightgoldenrodyellow;
+    font-family: 'Architects Daughter', cursive;
  }
+
+ .top {
+    background-image: url("https://i.imgur.com/S4DjhLW.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+ }
+
+ header {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 100vw;
+    border-radius: 10%;
+    text-align: center;
+ }
+
+ main {
+    display: flex;
+    justify-self: center;
+    width: 90vw;
+ }
+
+ h1 {
+    text-align: center;
+ }
+
+ footer {
+   position: fixed;
+   bottom: 0px;
+   width: 100vw;
+   background-color: grey;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ @media screen and (max-width: 750px) {
+   footer {
+      position: relative;
+   }
+}

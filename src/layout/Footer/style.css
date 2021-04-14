@@ -1,0 +1,8 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-self: center;
+    text-align: center;
+    color: whitesmoke;
+}
