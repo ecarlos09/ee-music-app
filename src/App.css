@@ -7,10 +7,3 @@
 .heading #title-icon {
     font-size: 5rem;
 }
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    background-color: grey;
-}

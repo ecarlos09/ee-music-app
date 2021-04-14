@@ -1,8 +1,23 @@
  body {
+    display: flex;
     background-color: lightgoldenrodyellow;
-    align-content: center;
+    justify-self: center;
+    padding-right: 1rem;
  }
 
  header {
     margin-top: 5rem;
+ }
+
+ main {
+    display: flex;
+    justify-self: center;
+    width: 90vw;
+ }
+
+ footer {
+    display: flex;
+    align-self: flex-end;
+    width: 100vw;
+    background-color: grey;
  }
