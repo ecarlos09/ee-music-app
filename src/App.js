@@ -9,10 +9,8 @@ import { Home, About, Music, Support, Contact } from './pages';
 function App() {
     return (
         <>
-            <nav>
-                <NavBar />
-            </nav>
-            
+            <NavBar />
+          
             <header>
                 <Header />
             </header>
