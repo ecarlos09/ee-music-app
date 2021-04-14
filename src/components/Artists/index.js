@@ -15,16 +15,19 @@ const Artists = () => {
                 <td>{a.name}</td>
                 <td><a href={a.link}>Link</a></td>
                 <td><LikeButton /></td>
+                <td><button>Show singles</button></td>
             </tr>                
         ));
     };
 
     return (
         <table style = {{border: "1px solid black", width:"100vw", textAlign: "center"}}>
-            <thead>
+            <thead style = {{color: "white", backgroundColor:"grey"}}>
                 <tr>
                     <th>Artist</th>
                     <th>YouTube content</th>
+                    <th>Lookin' and likin'?</th>
+                    <th>Singles</th>
                 </tr>
             </thead>
             <tbody>
