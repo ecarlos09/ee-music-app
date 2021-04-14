@@ -3,14 +3,14 @@ import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
-import { Header, Footer } from './layout';
+import { NavBar, Header, Footer } from './layout';
 import { Home, About, Music, Support, Contact } from './pages';
 
 function App() {
     return (
         <>
             <nav>
-
+                <NavBar />
             </nav>
             
             <header>
