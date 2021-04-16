@@ -1,4 +1,4 @@
-# Choonsic Music
+# Choosic Music
 
 ### 12.04.2021
 
